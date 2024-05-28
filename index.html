@@ -13,20 +13,38 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-
-  Features
-  Team
-  Sign In
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
+<body class="h-lvh w-lvw">
+  <header class="flex justify-between px-20 py-14 items-center">
+    <img src="images/logo.svg" alt="logo">
+    <nav class="">
+      <ul class="flex gap-16 text-[#0E103D] font-medium opacity-80">
+        <li><a href="">Features</a></li>
+        <li><a href="">Team</a></li>
+        <li><a href="">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ------------------------------------------------------------------------------ -->
+  <section>
+    <h1>
+      All your files in one secure location, accessible anywhere.
+    </h1>
+    <p>
+      Fylo stores your most important files in one secure location. 
+      Access them wherever you need, share and collaborate with friends, 
+      family, and co-workers.
+    </p>
+    <form>
+      <input type="email">
+      <button>
+        Get Started
+      </button>
+    </form>
+    <img class="w-[40%]" src="images/illustration-1.svg" alt="ilustration1">
+  </section>
+  <!-- ------------------------------------------------------------------------------ -->
 
   Stay productive, wherever you are
 
@@ -63,11 +81,5 @@
   Terms
   Privacy
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>
